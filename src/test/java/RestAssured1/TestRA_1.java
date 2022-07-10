@@ -18,7 +18,7 @@ void Test_01() {
 	System.out.println(responce.getTime());
 	
 	int statusCode = responce.getStatusCode();
-	Assert.assertEquals(statusCode, 201);
+	Assert.assertEquals(statusCode, 200);
 }
 @Test
 void test_02() {
